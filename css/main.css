@@ -1,3 +1,26 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+
+header {
+  background: #ecf0f1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.nav h1 {
+  color: #7f8c8d;
+}
+
+.main-menu ul {
+  display: flex;
+}
+
+.main-menu a {
+  color: #7f8c8d;
+  margin-left: 20px;
+}
