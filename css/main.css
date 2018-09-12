@@ -4,16 +4,19 @@
 
 header {
   background: #ecf0f1;
+  border-bottom: 1px solid #bdc3c7;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 0;
 }
 
 .nav h1 {
   color: #7f8c8d;
+  font-size: 1.2rem;
 }
 
 .main-menu ul {
