@@ -7,23 +7,69 @@ header {
   border-bottom: 1px solid #bdc3c7;
 }
 
-.nav {
+#header {
+  padding: 100px 0 50px 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
+  justify-content: center;
 }
 
-.nav h1 {
+.header-block {
+  border: 1px solid #7f8c8d;
+  padding: 30px 50px;
+  border-radius: 1px;
+  text-align: center;
+  position: relative;
+}
+
+.header-block h1 {
+  font-size: 1.9rem;
   color: #7f8c8d;
-  font-size: 1.2rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
-.main-menu ul {
-  display: flex;
+.header-block h2 {
+  font-size: 1.7rem;
+  color: #95a5a6;
+  letter-spacing: 1px;
 }
 
-.main-menu a {
+#year-block {
+  position: absolute;
+  border: 1px solid #95a5a6;
+  background: #95a5a6;
+  font-size: 1rem;
+  padding: 0.2rem;
+  line-height: 1.2rem;
+  top: -0.9rem;
+  left: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#resume-block {
+  position: absolute;
+  border: 1px solid #bdc3c7;
+  background: #bdc3c7;
+  font-size: 1rem;
+  padding: 0.2rem;
+  line-height: 1.2rem;
+  bottom: -0.8rem;
+  right: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#objective {
+  text-align: center;
+}
+
+#objective p {
+  display: inline-block;
+  width: 70%;
+  font-size: 1.1rem;
   color: #7f8c8d;
-  margin-left: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+  line-height: 1.8rem;
 }
