@@ -73,3 +73,97 @@ header {
   margin-bottom: 100px;
   line-height: 1.8rem;
 }
+
+#education {
+  width: 80%;
+  padding: 15px;
+  background: #ecf0f1;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #bdc3c7 1px 1px 1px;
+  letter-spacing: 1px;
+}
+
+#education h3 {
+  color: #7f8c8d;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+#education img {
+  width: 40px;
+  height: 40px;
+}
+
+#skill {
+  width: 80%;
+  padding: 15px;
+  margin: 0 0 0 auto;
+  letter-spacing: 1px;
+  background: #ecf0f1;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #bdc3c7 1px 1px 1px;
+}
+
+#skill h3 {
+  color: #7f8c8d;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+#skill img {
+  width: 40px;
+  height: 40px;
+}
+
+#information {
+  padding: 70px 0;
+}
+
+.education-block {
+  width: 80%;
+  padding: 30px 15px;
+  background: #ecf0f1;
+  border-radius: 1px;
+  margin: 15px 0;
+  position: relative;
+  box-shadow: #bdc3c7 1px 1px 1px;
+}
+
+.education-block h4 {
+  color: #7f8c8d;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.education-block p {
+  color: #7f8c8d;
+  font-size:0.8rem;
+  letter-spacing: 1px;
+}
+
+.education-years {
+  position: absolute;
+  border-radius: 1px;
+  bottom: -0.8rem;
+  right: 10px;
+  background: #34495e;
+  padding: 5px;
+  color: #ecf0f1 !important;
+}
+
+.skill-block {
+  width: 80%;
+  padding: 30px 15px;
+  background: #ecf0f1;
+  border-radius: 1px;
+  margin: 15px 0 0 auto;
+  position: relative;
+  box-shadow: #bdc3c7 1px 1px 1px;
+}
