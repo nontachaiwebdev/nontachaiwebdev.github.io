@@ -9,7 +9,6 @@ header {
 
 #header {
   padding: 100px 0 50px 0;
-  display: flex;
   justify-content: center;
 }
 
@@ -272,5 +271,43 @@ header {
 
 .social-group img {
   width: 40px;
-  margin-right: 10px; 
+  margin-right: 10px;
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+  .education-block {
+    margin: 15px auto 70px auto;
+  }
+
+  #education {
+    margin: auto;
+  }
+
+  .career-block {
+    margin: 15px auto 25px auto;
+  }
+
+  #career {
+    margin: auto;
+  }
+
+  .skill-block {
+    margin: 15px auto 0 auto;
+  }
+
+  #skill {
+    margin: auto;
+  }
+
+  #header {
+    padding: 100px 30px 50px 30px;
+  }
+
+  #contact {
+    background: #34495e;
+    padding: 50px 30px;
+  }
 }
