@@ -310,4 +310,110 @@ and (max-device-width : 1024px)  {
     background: #34495e;
     padding: 50px 30px;
   }
+
+  .columns {
+    margin: 0;
+  }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .education-block {
+    margin: 15px auto 70px auto;
+  }
+
+  #education {
+    margin: auto;
+  }
+
+  .career-block {
+    margin: 15px auto 25px auto;
+  }
+
+  #career {
+    margin: auto;
+  }
+
+  .skill-block {
+    margin: 15px auto 0 auto;
+  }
+
+  #skill {
+    margin: auto;
+  }
+
+  #header {
+    padding: 100px 30px 50px 30px;
+  }
+
+  #contact {
+    background: #34495e;
+    padding: 50px 30px;
+  }
+
+  .columns {
+    margin: 0;
+  }
+
+  .header-block h1 {
+    font-size: 1.5rem;
+  }
+
+  .header-block h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .education-block {
+    margin: 15px auto 70px auto;
+  }
+
+  #education {
+    margin: auto;
+  }
+
+  .career-block {
+    margin: 15px auto 25px auto;
+  }
+
+  #career {
+    margin: auto;
+  }
+
+  .skill-block {
+    margin: 15px auto 0 auto;
+  }
+
+  #skill {
+    margin: auto;
+  }
+
+  #header {
+    padding: 100px 30px 50px 30px;
+  }
+
+  #contact {
+    background: #34495e;
+    padding: 50px 30px;
+  }
+
+  .columns {
+    margin: 0;
+  }
+
+  .header-block h1 {
+    font-size: 1.3rem;
+  }
+
+  .header-block h2 {
+    font-size: 1rem;
+  }
+
+  .header-block {
+    padding: 30px 30px;
+  }
 }
