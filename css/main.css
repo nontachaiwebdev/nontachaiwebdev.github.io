@@ -249,3 +249,28 @@ header {
   color: #ecf0f1 !important;
   line-height: 1.2rem !important;
 }
+
+#contact {
+  background: #34495e;
+  padding: 50px 0;
+}
+
+.contact-title h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ecf0f1;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  color: #ecf0f1;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.social-group img {
+  width: 40px;
+  margin-right: 10px; 
+}
